@@ -607,21 +607,21 @@ body {
   }
 }
 
-.news {
+.official-twitter {
+  display: flex;
   margin-top: 40px;
-}
-.news .instagram-media {
-  margin: 0 auto !important;
+  justify-content: center;
 }
 @media (max-width: 767px) {
-  .news {
-    margin-top: 20px !important;
+  .official-twitter {
+    margin-top: 20px;
   }
 }
 
 .movie {
   display: flex;
   margin-top: 40px;
+  justify-content: center;
 }
 .movie__item {
   width: calc(96% / 3);
@@ -807,7 +807,7 @@ body {
 .store a {
   display: inline-block;
   border-radius: 5px;
-  padding: 25px 20px 10px;
+  padding: 25px 60px 10px;
   border: 2px solid #101010;
   text-align: center;
 }
@@ -816,7 +816,7 @@ body {
   transition: 0.1s;
 }
 .store .store__image {
-  max-width: 600px;
+  max-width: 486px;
   margin: 0 auto;
   display: block;
 }
@@ -842,6 +842,9 @@ body {
   }
   .store .store__text {
     max-width: 100px;
+  }
+  .store a {
+    padding: 25px 30px 10px;
   }
 }
 

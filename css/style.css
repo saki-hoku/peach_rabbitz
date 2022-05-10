@@ -607,6 +607,24 @@ body {
   }
 }
 
+.lead {
+  font-size: 1.8rem;
+  line-height: 2;
+  text-align: center;
+  margin-top: 40px;
+}
+@media (max-width: 767px) {
+  .lead {
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+}
+@media (max-width: 767px) {
+  .lead {
+    margin-top: 25px;
+  }
+}
+
 .official-twitter {
   display: flex;
   margin-top: 40px;
